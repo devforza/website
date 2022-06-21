@@ -1,0 +1,118 @@
+body{
+    margin:  0px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.header{
+    height: 6vh; 
+    background-color: rgb(255, 255, 255); 
+    padding: 8px 64px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header-logo{
+    height: 90%;
+}
+
+.header-links a{
+    text-decoration: none;
+    color: #303030;
+    margin: 0px 8px;
+}
+
+.banner{
+    height: 94vh;
+    width: 100%;
+}
+
+.banner-img{
+    height: 100%;
+    background-image: url('assets/forza-trailer.jfif');
+    background-repeat:round;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.banner-description{
+    padding: 16px 16%;
+    background-color: #00000052;
+}
+
+.banner-description-title{
+    color: #dddddd;
+    font-weight: 600;
+}
+
+
+.banner-description-title span{
+    font-weight: bold;
+    color: #B91F38;
+}
+
+.banner-description p{
+    color: white;
+    line-height: 1.8;
+}
+
+.services-section{    
+    padding: 8px 64px;
+    height: 650px;
+    background-image: url('assets/truck.jpg');
+    background-repeat:round;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.services-section div{
+    margin: 0 auto;
+}
+
+.services-section div h2{
+    text-align: center;
+    font-size: 32px;
+}
+
+.services-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    /* flex-grow: 1; */
+    display: flex;
+    flex-direction: column;
+}
+
+.services-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 16px;
+    height: 100%;
+}
+
+.item-icon{
+    border-radius: 50%;
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    padding: 32px;
+    position: relative;
+    display: flex;
+}
+
+.item-icon img{
+    margin: auto;
+}
+
+.item-description h3,
+.item-description p{
+ text-align: center;
+}
